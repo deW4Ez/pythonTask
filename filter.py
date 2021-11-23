@@ -1,7 +1,6 @@
 from PIL import Image
 import numpy as np
 
-
 def mosaic_to_gray(array_img: np.array, mosiac_size, step_grad):
     width = len(array_img)
     height = len(array_img[1])
